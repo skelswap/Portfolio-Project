@@ -1,14 +1,36 @@
 
-.indexhtml{
-  background:url(indexbg.jpg);
+.accessibilitypage{
+  background-color:black;
+  height:98%;
+  width:100%;
+}
+
+.onepage{
+  background:url(onepagebg.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   height:98%;
   width:100%;
 }
 
-.aboutmehtml{
-  background:url(aboutmebg.jpg);
+.onepageless{
+  background:url(onepagebgless.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:98%;
+  width:100%
+}
+
+.longpage{
+  background:url(longpagebg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:auto;
+  width:auto;
+}
+
+.longpageless{
+  background:url(longpagebgless.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   height:auto;
@@ -46,21 +68,61 @@ body{
 }
 
 h1{
-  font-family:"Staatliches", cursive;
+  font-family:'Staatliches', cursive;
   text-align:center;
   background-color:deeppink;
   padding-top:5px;
   margin-top:20px;
 }
 
+h2{
+  font-family:'Indie Flower', cursive;
+  font-size:60px;
+  color:ghostwhite;
+  margin:20px;
+}
+
+h3{
+  font-family:'Indie Flower', cursive;
+  font-size:30px;
+  color:ghostwhite;
+  text-align:center;
+  margin:20px;
+  margin-top:30px;
+}
+
+h5{
+  font-family:'Nanum Gothic', sans-serif;
+  color:whitesmoke;
+  text-align:center;
+  margin-top:60px;
+}
+
 p{
   font-family: 'Nanum Gothic', sans-serif;
-  font-size:20px;
+  font-size:24px;
   text-align:left;
   background-color:hotpink;
   border: solid deeppink 4px;
   padding:10px;
-  margin:5px;
+  margin:20px;
+}
+
+a{
+  color:#eaa3ff;
+}
+
+.aless{
+  color:purple;
+}
+
+.welcometext{
+  text-align:center;
+}
+
+.contacts{
+  display:flex;
+  justify-content: space-evenly;
 }
 
 .navbar li:after,
@@ -110,7 +172,7 @@ p{
   display: flex;
   align-items:center;
   justify-content:space-around;
-  font-family:"Cherry Swash", cursive;
+  font-family:'Cherry Swash', cursive;
   border-top: solid deeppink 4px;
   border-bottom: solid deeppink 4px;
   position: -webkit-sticky; /* Safari */
@@ -132,6 +194,16 @@ p{
   color: black;
   padding: 14px 16px;
   text-decoration:none;
+}
+
+.infolist{
+  list-style-type:circle;
+  background-color:hotpink;
+  border: solid deeppink 4px;
+}
+
+.noborder{
+  border:none;
 }
 
 .fleximg{
